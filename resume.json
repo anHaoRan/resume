@@ -1,26 +1,26 @@
 {
   "data_lang": "zh-CN",
-  "ga_id": "UA-63818301-2",
-  "resume_title": "张秋怡 - 个人简历",
-  "name": "张秋怡",
-  "repo": "https://github.com/joyeecheung/resume.git",
-  "job_description": ["前端工程师", "软件工程师"],
+  "ga_id": "UA-65013365-1",
+  "resume_title": "葛豪武 - 个人简历",
+  "name": "葛豪武",
+  "repo": "https://github.com/ghw/resume-aboutme.git",
+  "job_description": ["会计 ", " 通用系统工程师"],
   "contact": {
-    "phone": "13824481874",
-    "email": "joyeec9h3@gmail.com",
+    "phone": "15205770577",
+    "email": "iam@gehaowu.com",
     "wechat": {
-      "id": "joyee-cheung",
-      "qrcode": "static/wechat.svg"
+      "id": "gehaowu",
+      "qrcode": "static/wc.png"
     },
     "sinaweibo": {
-      "id": "SYSU_Joyee",
-      "url": "http://weibo.com/2930876843"
+      "id": "建设中。。。装逼等待中，，，等我有空再改改。。。",
+      "url": "#"
     },
     "github": {
-      "id": "joyeecheung"
+      "id": "ghw"
     },
     "blog": {
-      "url": "http://joyeecheung.cnblogs.com"
+      "url": "https://www.gehaowu.com"
     }
   },
   "links": [{
@@ -39,14 +39,12 @@
     "url": "http://book.douban.com/people/joyee-cheung/"
   }],
   "education": [{
-    "type": "undergraduate",
-    "name": "中山大学",
-    "major": "软件工程",
-    "start": "2012",
-    "end": "2016",
+    "type": "specialty",
+    "name": "浙江财经学院",
+    "major": "会计学",
+    "start": "2008.09",
+    "end": "2011.06",
     "honor": [
-      "2012 - 2013 学年度校**三等奖学金**",
-      "2013 - 2014 学年度校**一等奖学金**"
     ]
   }],
   "language": [{
@@ -69,29 +67,24 @@
   "experience": [{
     "type": "internship",
     "techtype": "nodejs",
-    "place": "东西科技",
-    "start": "2014.03",
-    "end": "2014.06",
-    "name": "Node.js 开发",
+    "place": "杭州宇林医学仪器有限公司",
+    "start": "2014.09",
+    "end": "至今",
+    "name": "主办会计",
     "description": [
-      "开发并维护封装微信公众平台 API 的 `Express 中间件`",
-      "使用 `Mocha`、`Chai` 及 `CoffeeScript` 编写单元测试",
-      "结合 `MongoDB` 开发微信公众平台 Demo",
-      "编写 `bash` 脚本，使用 `ApacheBench` 对后端程序进行压力测试与资源使用分析，辅助服务器选型"
+      "额。。 `主办会计`"
     ],
-    "stack": ["nodejs", "express", "mocha", "chai", "coffeescript", "mongodb"]
+    "stack": ["主办会计"]
   }, {
     "type": "internship",
     "techtype": "frontend",
-    "place": "埃森哲广州 CDC",
-    "start": "2014.08",
+    "place": "浙江爱生药业有限公司",
+    "start": "2011.04",
     "end": "2014.09",
-    "name": "前端开发",
+    "name": "财务助理/税务会计",
     "description": [
-      "参与某集团内部办公系统（OA）的前端开发，基于 `jQuery UI` 与 `Bootstrap` 实现前端组件及数据交互",
-      "解决遗留的 bug 及浏览器兼容问题（`IE8+`）",
-      "使用 `Grunt` 及 `Less` 完成皮肤开发",
-      "重构部分前端代码"
+      "酱油酱油酱油",
+      "酱油酱油酱油"
     ],
     "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
     "compatibility": "IE8+"
@@ -198,13 +191,7 @@
   }, {
     "type": "miscellaneous",
     "item": [
-      "三年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
-      "熟悉多种平台与编译环境下的 `C` / `C++` 及其新标准，编写过简单的解释器、数据库引擎、3D 图形程序及 Node.js 扩展，能阅读 `WebKit` / `Blink、V8` 等常接触项目的源代码并加以利用",
-      "熟悉 `Python`，能实现简单的数据及图像处理工具、自动化脚本、爬虫、机器学习算法及分布式程序（参见 GitHub）",
-      "具备基本的 `Web 安全`知识（`X.509` / `XSS` / `CSRF` 等）",
-      "能够使用 `LaTeX` 及 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
-      "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
-      "能够使用 `Photoshop` / `Illustrator` 完成简单的设计"
+      "柒年 `FreeBSD` 使用经验，熟悉常用命令与配置"
     ]
   }]
 }

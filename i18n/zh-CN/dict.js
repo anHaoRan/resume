@@ -1,6 +1,7 @@
 module.exports = {
     experience_type: {
-        "internship": "（实习）"
+        "internship": "（全职）",
+        "fulltime": "（全职）"
     },
     skill_type: {
         "frontend": "Web 前端",
@@ -8,7 +9,8 @@ module.exports = {
         "miscellaneous": "其他"
     },
     education_type: {
-        "undergraduate": "（本科）"
+        "undergraduate": "（本科）",
+        "specialty": "（专科）"
     },
     link_type: {
         "zhihu": "知乎",
@@ -24,6 +26,10 @@ module.exports = {
         "language": {
             "ch": "语言水平",
             "en": "Language"
+        },
+        "cpa": {
+            "ch": "注会考试",
+            "en": "CPA"
         },
         "experience": {
             "ch": "项目与工作经验",
