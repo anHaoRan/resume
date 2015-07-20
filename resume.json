@@ -86,83 +86,36 @@
     ],
     "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
     "compatibility": "IE8+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "我的个人网站",
-    "source": "https://github.com/ghw/website_source/",
-    "demo": "https://www.gehaowu.com/",
-    "description": [
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`会计技能`",
+      "description": [
+        "建设中。。。",
+        "建设中。。。",
+        "建设中。。。"
+      ]
+    }, {
+      "summary": "`财务技能`",
+      "description": [
+        "建设中。。。",
+        "建设中。。。",
+        "建设中。。。"
+      ]
+    }]
+  }],
+  "xm": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`个人网站`",
+      "description": [
       "主页部分采用 `HTML5` 技术的纯静态页面",
       "相册模块同样采用 `HTML5` ",
       "笔记模块由 `HEXO` 强力驱动",
 	  "他们都是完美支持手机等移动设备的 `响应式` 站点",
 	  "站点为 `FreeBSD` + `NGINX` 方案构建"
-    ],
-    "stack": ["jade", "less", "gulp"],
-    "compatibility": "IE9+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "建设中。。。",
-    "source": "https://github.com/ghw",
-    "demo": "https://www.gehaowu.com/",
-    "description": [
-      "建设中。。。",
-      "建设中。。。",
-      "建设中。。。"
-    ],
-    "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
-    "compatibility": "IE9+"
-  }],
-  "skills": [{
-    "type": "frontend",
-    "item": [{
-      "summary": "`HTML` / `CSS`",
-      "description": [
-        "能够编写语义化的 `HTML`，模块化的 `CSS`，完成较复杂的布局",
-        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，关注 `CSS4` 的进展",
-        "了解常见的浏览器**兼容性**问题及解决方案"
-      ]
-    }, {
-      "summary": "`建设中。。。`",
-      "description": [
-        "建设中。。。",
-        "建设中。。。",
-        "建设中。。。"
-      ]
-    }, {
-      "summary": "建设中。。。",
-      "description": [
-        "建设中。。。",
-        "建设中。。。",
-        "建设中。。。"
       ]
     }]
-  }, {
-    "type": "backend",
-    "item": [{
-      "summary": "建设中。。。",
-      "description": [
-        "建设中。。。",
-        "建设中。。。",
-        "建设中。。。",
-        "建设中。。。"
-      ]
-    }, {
-      "summary": "其他",
-      "description": [
-        "建设中。。。",
-        "建设中。。。",
-        "建设中。。。"
-      ]
-    }]
-  }, {
-    "type": "miscellaneous",
-    "item": [
-      "柒年 `FreeBSD` 使用经验，熟悉常用命令与配置"
-    ]
   }]
 }

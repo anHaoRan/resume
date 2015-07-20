@@ -1,0 +1,32 @@
+.xm-item-description {
+    padding-left: 0;
+}
+
+.xm-item {
+    margin: @padding-large-vertical 0;
+}
+
+.xm-item-description {
+    margin: 0;
+}
+
+.xm-item-summary {
+    font-size: @font-size-medium;
+    margin: @padding-large-vertical 0 @padding-small-vertical 0;
+    font-weight: bold;
+}
+
+.xm-miscellaneous {
+    margin-top: @padding-large-vertical;
+    padding: 0;
+}
+
+.xm-miscellaneous .xm-item-description {
+    list-style-type: none;
+}
+
+.set-section-icon(xm, @fa-var-wrench);
+.set-timeline-icon(xm-frontend, @fa-var-puzzle-piece);
+.set-timeline-icon(xm-backend, @fa-var-cloud);
+.set-timeline-icon(xm-miscellaneous, @fa-var-gears);
+.set-li-icon(xm-item-description, @fa-var-star);

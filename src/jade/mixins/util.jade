@@ -76,6 +76,29 @@ mixin skills_miscellaneous(item)
         li.skills-item-description
           span!= highlight(desc)
 
+mixin xm_basic(item)
+  dl.xm-description.timeline-content
+    each skill in item.item
+      dt.xm-item-summary!= highlight(skill.summary)
+      each desc in skill.description
+        dd.xm-item-description
+          span!= highlight(desc)
+
+
+mixin xm_frontend(item)
+  +xm_basic(item)(attributes)
+
+
+mixin xm_backend(item)
+  +xm_basic(item)(attributes)
+
+
+mixin xm_miscellaneous(item)
+    ul.xm-description.xm-miscellaneous.timeline-content
+      each desc in item.item
+        li.xm-item-description
+          span!= highlight(desc)
+
 
 mixin experience_title_job(item)
   span.experience-place= item.place

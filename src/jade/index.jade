@@ -13,6 +13,13 @@ block education
           each honor in item.honor
             dd.education-honor!= highlight(honor)
 
+block xm
+  +section("xm", true)
+    each item in xm
+      li.timeline-item(class="xm-" + item.type)
+        h3.timeline-title
+          span.xm-type= skill_type[item.type]
+        +#{"skills_" + item.type}(item)
 
 block language
   +section("language", false)
