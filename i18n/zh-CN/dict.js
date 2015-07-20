@@ -4,8 +4,8 @@ module.exports = {
         "fulltime": "（全职）"
     },
     skill_type: {
-        "frontend": "Web 前端",
-        "backend": "Web 后端",
+        "frontend": "会计",
+        "backend": "财务",
         "miscellaneous": "其他"
     },
     education_type: {
@@ -24,8 +24,8 @@ module.exports = {
             "en": "Education"
         },
         "language": {
-            "ch": "语言水平",
-            "en": "Language"
+            "ch": "考试状态",
+            "en": "Examination"
         },
         "cpa": {
             "ch": "注会考试",
@@ -43,7 +43,7 @@ module.exports = {
     lt_ie8_comment: "你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~",
     dict: {
         source_code: "源代码",
-        demo: "Demo"
+        demo: "演示"
     },
     project_type: {
         "personal": "个人项目"
