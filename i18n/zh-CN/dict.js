@@ -5,7 +5,7 @@ module.exports = {
     },
     skill_type: {
         "frontend": "财务 & 会计",
-        "backend": "财务",
+        "backend": "我的个人项目",
         "miscellaneous": "其他"
     },
     education_type: {
