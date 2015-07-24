@@ -6,38 +6,22 @@
   "repo": "https://github.com/ghw/resume-aboutme.git",
   "job_description": ["会计 ", " 通用系统工程师"],
   "contact": {
-    "phone": "15205770577",
-    "email": "iam[Remove me]@gehaowu.com",
+    "phone": "15205[DEL]770571",
+    "email": "iam[DEL]@gehaowu.com",
     "wechat": {
       "id": "gehaowu",
       "qrcode": "static/wc.png"
     },
     "sinaweibo": {
-      "id": "建设中。。。装逼等待中，，，等我有空再改改。。。",
-      "url": "#"
+      "url": "https://www.gehaowu.com/albums"
     },
     "github": {
-      "id": "ghw"
+      "url": "https://www.gehaowu.com"
     },
     "blog": {
-      "url": "https://www.gehaowu.com"
+      "url": "https://www.gehaowu.com/notes"
     }
   },
-  "links": [{
-    "type": "repo",
-    "url": "https://github.com/joyeecheung/resume"
-
-  }, {
-    "type": "pdf",
-    "url": "static/joyeecheung.pdf"
-
-  }, {
-    "type": "zhihu",
-    "url": "http://www.zhihu.com/people/zhang-qiu-yi-27/"
-  }, {
-    "type": "doubanbook",
-    "url": "http://book.douban.com/people/joyee-cheung/"
-  }],
   "education": [{
     "type": "specialty",
     "name": "浙江财经学院",

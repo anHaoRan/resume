@@ -1,5 +1,6 @@
 mixin phone(number)
-  li.contact-phone&attributes(attributes)= number
+  li.contact-phone&attributes(attributes)
+    a(href="tel:" + number)= number
 
 mixin email(addr)
   li.contact-email&attributes(attributes)
@@ -7,11 +8,11 @@ mixin email(addr)
 
 mixin sinaweibo(data)
   li.contact-sinaweibo&attributes(attributes)
-    a(href=data.url)= data.id
+    a(href=data.url)= data.url
 
 mixin github(data)
   li.contact-github&attributes(attributes)
-    a(href="https://github.com/" + data.id)= "https://github.com/" + data.id
+    a(href=data.url)= data.url
 
 mixin blog(data)
   li.contact-blog&attributes(attributes)
