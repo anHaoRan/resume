@@ -10,7 +10,7 @@
     "email": "iam@gehaowu.com",
     "wechat": {
       "id": "gehaowu",
-      "qrcode": "static/wc.png"
+      "qrcode": "static/weixin_gehaowu.png"
     },
     "albums": {
       "url": "https://www.gehaowu.com/albums"
