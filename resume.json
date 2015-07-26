@@ -1,21 +1,21 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-65013365-1",
-  "resume_title": "葛豪武 - 个人简历",
+  "resume_title": "葛豪武的个人简历",
   "name": "葛豪武",
   "repo": "https://github.com/ghw/resume-aboutme.git",
-  "job_description": ["会计 ", " 通用系统工程师"],
+  "job_description": ["会计 ", " 溢栈系统工程师"],
   "contact": {
-    "phone": "+86 152 05[DEL]77 0571",
-    "email": "iam[DEL]@gehaowu.com",
+    "phone": "+86 152 0577 0571",
+    "email": "iam@gehaowu.com",
     "wechat": {
       "id": "gehaowu",
       "qrcode": "static/wc.png"
     },
-    "sinaweibo": {
+    "albums": {
       "url": "https://www.gehaowu.com/albums"
     },
-    "github": {
+    "homepage": {
       "url": "https://www.gehaowu.com"
     },
     "blog": {
