@@ -82,7 +82,7 @@ gulp.task('watch', ['server'], function() {
 
 /****************** Build ****************/
 gulp.task('build', ['jade', 'less-debug', 'static']);
-gulp.task('build-for-deploy', ['jade', 'less', 'static']);
+gulp.task('buildpub', ['jade', 'less', 'static']);
 
 /****************** Server ****************/
 function server(done) {
@@ -97,10 +97,10 @@ function server(done) {
 }
 
 gulp.task('server', ['build'], server);
-gulp.task('preview', ['build-for-deploy'], server);
+gulp.task('preview', ['buildpub'], server);
 
 /****************** Deploy ****************/
-gulp.task('deploy', ['build-for-deploy'], function() {
+gulp.task('deploy', ['buildpub'], function() {
   return gulp.src('./dist/**/*')
     .pipe(plugins.ghPages());
 });
