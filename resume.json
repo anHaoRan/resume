@@ -8,9 +8,9 @@
   "contact": {
     "phone": "+86 152 0577 0571",
     "email": "iam@gehaowu.com",
-    "wechat": {
+    "qrcode": {
       "id": "gehaowu",
-      "qrcode": "static/weixin_gehaowu.png"
+      "qrcode": "static/resume.png"
     },
     "albums": {
       "url": "https://www.gehaowu.com/albums"
