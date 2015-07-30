@@ -5,7 +5,7 @@ module.exports = {
     },
     skill_type: {
         "frontend": "财务 & 会计",
-        "backend": "我的个人项目",
+        "backend": "我的主办项目",
         "miscellaneous": "其他"
     },
     education_type: {
@@ -48,8 +48,8 @@ module.exports = {
             "en": "Skills"
         },
         "xm": {
-            "ch": "个人项目",
-            "en": "Project"
+            "ch": "相关项目",
+            "en": "Relevant Project"
         }
     },
     lt_ie8_comment: "你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~",
