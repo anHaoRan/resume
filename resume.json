@@ -35,16 +35,20 @@
   "language": [{
     "type": "english",
     "certificate": [{
-      "type": "会计",
-      "full": "110",
+      "type": "中级会计实务",
+      "full": "100",
       "score": "0"
     }, {
-      "type": "税法",
-      "full": "110",
+      "type": "财务管理",
+      "full": "100",
+      "score": "0"
+    }, {
+      "type": "经济法",
+      "full": "100",
       "score": "0"
     }],
     "description": [
-      "先考个会计，提提信心。"
+      "搞个中级试试先"
     ]
   }],
   "experience": [{
